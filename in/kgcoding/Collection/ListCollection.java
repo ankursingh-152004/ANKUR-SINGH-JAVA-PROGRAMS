@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ListCollection {
     public static void main(String[] args) {
-        List l=new ArrayList();
+        List<String> l=new ArrayList<>();
         l.add("Ankur");
         l.add(1,"Singh");
          for(int i=0;i<l.size();i++){

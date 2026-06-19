@@ -1,7 +1,6 @@
 package in.kgcoding.Challenge93;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import in.kgcoding.Challenge92.Swap;

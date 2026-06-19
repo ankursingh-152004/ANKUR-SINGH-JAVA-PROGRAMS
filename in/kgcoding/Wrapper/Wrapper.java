@@ -5,7 +5,8 @@ public class Wrapper { // provide a way to use primitive datat types like int,ch
     public static void main(String[] args) {
         Integer first=Integer.valueOf("55");   //or Integer a=55; (automatic conversion or Autoboxing) primitive to wrapper class object
 
-        int secont=first; //wrapper class object to primitive data type.
+        int second=first; //wrapper class object to primitive data type.
+        System.out.println(second);
     }
 
 }

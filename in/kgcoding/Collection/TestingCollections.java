@@ -39,6 +39,9 @@ public class TestingCollections {//collection is interface whereas collection is
         }
         List<Integer> unmodifiableList=Collections.unmodifiableList(numList);
       //  numList.add(9)    error
+      for (Integer unmodifiableList2 : unmodifiableList) {
+        System.out.println(unmodifiableList2);
+      }
 
     }
 
