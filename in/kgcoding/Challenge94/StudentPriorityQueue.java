@@ -15,6 +15,7 @@ public class StudentPriorityQueue {
         queue.offer(new Student("Ankur", 'A'));
         queue.offer(new Student("Anuj", 'B'));
         queue.offer(new Student("ajay", 'A'));
+        
 
 System.out.printf("Queue is: %s",queue);
 
@@ -34,9 +35,7 @@ System.out.printf("Queue is: %s",queue);
             this.name = name;
             this.grade = grade;
         }
-        public String getName() {
-            return name;
-        }
+       
         public char getGrade() {
             return grade;
         }

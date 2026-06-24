@@ -1,4 +1,4 @@
-package in.kgcoding.MultiThreading;
+package in.kgcoding.MultiThreading.threadClass;
 
 public class ExtendingThread { //Creating Thread by Extending Thread Class.
     public static void main(String[] args) {

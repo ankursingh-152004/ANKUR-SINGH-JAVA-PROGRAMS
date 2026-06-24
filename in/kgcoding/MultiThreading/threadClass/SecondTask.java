@@ -1,4 +1,4 @@
-package in.kgcoding.MultiThreading;
+package in.kgcoding.MultiThreading.threadClass;
 
 public class SecondTask extends Thread{
 

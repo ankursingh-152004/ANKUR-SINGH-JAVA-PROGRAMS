@@ -1,4 +1,4 @@
-package in.kgcoding.MultiThreading;
+package in.kgcoding.MultiThreading.threadClass;
 
 public class NeedOfMultiThreadng {
     public static void main(String[] args) {
