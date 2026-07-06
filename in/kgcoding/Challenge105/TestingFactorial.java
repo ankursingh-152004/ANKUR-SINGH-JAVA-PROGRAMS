@@ -17,7 +17,7 @@ public class TestingFactorial {
             for(Future<Integer> future :list){
             System.out.printf("\nResult is :%d",future.get());
            }
-
+           service.shutdown();
            if(service.awaitTermination(10, TimeUnit.SECONDS)){
             System.out.println("Your Time Ends Now...");
             service.shutdown();
